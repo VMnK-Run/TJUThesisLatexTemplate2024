@@ -8,6 +8,8 @@ Latex template for TJU thesis. Modified from [here](https://code.google.com/p/tj
 
 在前人版本的基础上按照 2024 届本科生毕业论文要求进行部分修改。
 
+在 Overleaf 中使用 xeletex 编译方式
+
 # 致谢
 
 tjuthesis 的原作者们作出了前人栽树的不可磨灭的贡献：
