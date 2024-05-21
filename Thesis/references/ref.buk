@@ -136,7 +136,7 @@ ENTRY { address			% 地址
 %%%%%%%%%%%%%
 % FUNCTION {bbl.anonymous}   { language empty$ { "Anon" }  { "佚名" } if$ }
 FUNCTION {bbl.anonymous} { "" }
-FUNCTION {bbl.etal}        { language empty$ { "\emph{et~al}" } { "等" } if$ }
+FUNCTION {bbl.etal}        { language empty$ { "et~al" } { "等" } if$ }
 FUNCTION {bbl.sine.loco}   { language empty$ { "S.~l." } { "出版地不详" } if$ }
 FUNCTION {bbl.sine.nomine} { language empty$ { "s.~n." } { "出版者不详" } if$ }
 
