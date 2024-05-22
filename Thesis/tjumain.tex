@@ -26,7 +26,7 @@
 \defaultfont
 \clearpage{\pagestyle{empty}\cleardoublepage}
 
-\titleformat{\chapter}{\centering\sanhao\hei}{\chaptername}{2em}{} % 设置目录两字的格式
+\titleformat{\chapter}{\centering\sanhao\hei}{\chaptername}{1em}{} % 设置目录两字的格式
 \pdfbookmark[0]{目~~录}{mulu}
 \tableofcontents                                     % 中文目录
 \fancypagestyle{plain}{
@@ -47,7 +47,7 @@
 }
 \makeatother
 
-\titleformat{\chapter}{\centering\xiaosan\hei}{\chaptername}{2em}{} % 恢复chapter标题格式要求
+\titleformat{\chapter}{\centering\xiaosan\hei}{\chaptername}{1em}{} % 恢复chapter标题格式要求
 \setcounter{page}{1}                                 % 单独从 1 开始编页码
 \pagenumbering{arabic}
 %%%%%%%%%  正文  %%%%%%%%%
@@ -64,7 +64,7 @@
 % \nocite{*}        % 若将此命令屏蔽掉，则未引用的文献不会出现在文后的参考文献中
 \bibliography{references/reference}
 
-\titleformat{\chapter}{\centering\xiaosan\hei}{\chaptername}{2em}{}
+\titleformat{\chapter}{\centering\xiaosan\hei}{\chaptername}{1em}{}
 
 % \include{appendix/paperInEnglish}              % 外文资料
 % \include{appendix/paperInChinese}              % 中文译文
